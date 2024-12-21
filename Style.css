@@ -1,0 +1,117 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    gap: 20px;
+}
+.fa-bars {
+    color: white;
+    font-size: 22px;
+    margin-top: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+/* .fa-bars:hover {
+    background-color: hsla(0, 0%, 100%, .08);
+    padding: 10px;
+    border-radius: 20px;
+} */
+
+.youtube-logo {
+    width: 120px;
+    cursor: pointer;
+    
+}
+.mid-header {
+    display: flex;
+    align-items: center;
+}
+.search-area {
+    width: 500px;
+    padding: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border :1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 15px;
+    
+     
+}
+.search-area ::placeholder{
+    color: rgba(255, 255, 255, 0.1);
+     
+}
+.search-btn {
+    height: 43px;
+    padding: 12px 20px;
+    background-color: hsla(0, 0%, 100%, .08);
+    border-style: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.voice-btn {
+    padding: 12px 14px;
+    background-color: hsla(0, 0%, 100%, .08);
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.fa-magnifying-glass {
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+}
+.fa-microphone {
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    font-size: 17px;
+}
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+.fa-video {
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* .fa-video:hover {
+    background-color: hsla(0, 0%, 100%, .08);
+    padding: 10px;
+    border-radius: 20px;
+} */
+.fa-bell {
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* .fa-bell:hover {
+    background-color: hsla(0, 0%, 100%, .08);
+    padding: 10px;
+    border-radius: 20px;
+} */
+.profile-pic {
+    width: 35px;
+    border-radius: 17px;
+    cursor: pointer;
+}
