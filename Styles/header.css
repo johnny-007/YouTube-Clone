@@ -1,8 +1,3 @@
-*{
-    background-color: black;
-    margin: 0;
-    padding: 0;
-}
 .header{
     height: 75px;
     display: flex;
@@ -53,7 +48,7 @@
 }
 .search-btn {
     height: 43px;
-    padding: 12px 20px;
+    padding: 12px 25px;
     background-color: hsla(0, 0%, 100%, .08);
     border-style: none;
     border-top-right-radius: 20px;
