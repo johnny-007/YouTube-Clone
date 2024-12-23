@@ -1,71 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
-    <link rel="stylesheet" href="Styles/general.css">
-    <link rel="stylesheet" href="Styles/header.css">
-    <link rel="stylesheet" href="Styles/sidebar.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=subscriptions" />
-
-</head>
-<body>
-     <div class="header">
-         <div class="left-header">
-            <i class="fa-solid fa-bars"></i>
-            <img src="pics/youtube-logo.png" alt="Youtube Logo" class="youtube-logo">
-         </div>
-         <div class="mid-header">
-            <input type="text" placeholder="Search" class="search-area">
-            <button class="search-btn"> <i class="fa-solid fa-magnifying-glass"></i></button>
-            <button class="voice-btn"><i class="fa-solid fa-microphone"></i></button>
-         </div>
-         <div class="right-header">
-            <div><i class="fa-solid fa-video"></i></div>
-            <div><i class="fa-solid fa-bell"></i></div>
-            <div><img src="pics/profile.jpg" alt="Profile Pic" class="profile-pic"></div>
-         </div>
-     </div>
-     <div class="sidebar">
-   <div class="home-block">
-      <div class="home">
-         <i class="fa-solid fa-house"></i> 
-         <div>
-         Home
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=subscriptions"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <i class="fa-solid fa-bars"></i>
+        <img
+          src="pics/youtube-logo.png"
+          alt="Youtube Logo"
+          class="youtube-logo"
+        />
       </div>
+      <div class="mid-header">
+        <input type="text" placeholder="Search" class="search-area" />
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="voice-btn">
+          <i class="fa-solid fa-microphone"></i>
+        </button>
       </div>
-      <div class="shorts">
-         <i class="fa-solid fa-clapperboard"></i> 
-         <div>
-         Shorts
+      <div class="right-header">
+        <div><i class="fa-solid fa-video"></i></div>
+        <div><i class="fa-solid fa-bell"></i></div>
+        <div>
+          <img src="pics/profile.jpg" alt="Profile Pic" class="profile-pic" />
+        </div>
       </div>
+    </div>
+    <div class="sidebar">
+      <div class="home-block">
+        <div class="home">
+          <i class="fa-solid fa-house"></i>
+          <div>Home</div>
+        </div>
+        <div class="shorts">
+          <i class="fa-solid fa-clapperboard"></i>
+          <div>Shorts</div>
+        </div>
+        <div class="subscription">
+          <i class="fa-solid fa-folder-open"></i>
+          <div class="subscription-text">Subscription</div>
+        </div>
+        <hr />
       </div>
-      <div class="subscription">
-         <span class="material-symbols-outlined">
-         subscriptions
-      </span>
-      <div class="subscription-text">Subscription</div>      
-   </div>
-   <hr>
-   </div>
-   <div class="personal-block">
-   <div class="you">You <i class="fa-solid fa-angle-right"></i></div>
-   <div class="channel"><i class="fa-regular fa-address-card"></i> Channel</div>
-   <div class="history"><i class="fa-solid fa-clock-rotate-left"></i> History</div>
-   <div class="playlists"><i class="fa-solid fa-list"></i> Playlists</div>
-   <div class="videos"><i class="fa-solid fa-play"></i> Your Videos</div>
-   <div class="courses"><i class="fa-solid fa-graduation-cap"></i> Your Courses</div>
-   <div class="watch-later"><i class="fa-regular fa-clock"></i> Watch Later</div>
-   <div class="liked-videos"><i class="fa-regular fa-thumbs-up"></i> Liked Videos</div>
- </div>
-<hr>
-</div>
-</body>
+      <div class="personal-block">
+        <div class="you">You <i class="fa-solid fa-angle-right"></i></div>
+        <div class="channel">
+          <i class="fa-regular fa-address-card"></i> Channel
+        </div>
+        <div class="history">
+          <i class="fa-solid fa-clock-rotate-left"></i> History
+        </div>
+        <div class="playlists"><i class="fa-solid fa-list"></i> Playlists</div>
+        <div class="videos"><i class="fa-solid fa-play"></i> Your Videos</div>
+        <div class="courses">
+          <i class="fa-solid fa-graduation-cap"></i> Your Courses
+        </div>
+        <div class="watch-later">
+          <i class="fa-regular fa-clock"></i> Watch Later
+        </div>
+        <div class="liked-videos">
+          <i class="fa-regular fa-thumbs-up"></i> Liked Videos
+        </div>
+      </div>
+      <hr />
+      <div class="subscriptions-block">
+        <div class="subscriptions">Subscriptions</div>
+        <div class="aryNews"><img src="Pics/ary.jpg" alt="ARY" />ARY News</div>
+        <div class="aryDigital">
+          <img src="Pics/ary2.jpg" alt="ARY Digital" />ARY Digital
+        </div>
+        <div class="apnaCollege">
+          <img src="Pics/ac.png" alt="Apna College" />Apna College
+        </div>
+        <div class="round2Hell">
+          <img src="Pics/r2h.jpg" alt="Round2Hell" />Round2Hell
+        </div>
+        <div class="careerFoundry">
+          <img src="Pics/cf.jpg" alt="CareerFoundry" />CareerFoundry
+        </div>
+        <div class="freeCodeCamp">
+          <img src="Pics/fcc.jpg" alt="FreeCodeCamp" />FreeCodeCamp
+        </div>
+        <div class="bbkiVines">
+          <img src="Pics/bb.jpg" alt="BB Ki Vines" />BB Ki Vines
+        </div>
+      </div>
+      <hr />
+      <div class="settings-block">
+        <div class="settings"><i class="fa-solid fa-gear"></i>Settings</div>
+        <div class="report">
+          <i class="fa-solid fa-flag"></i> Report History
+        </div>
+        <div class="help">
+          <i class="fa-regular fa-circle-question"></i>Help
+        </div>
+        <div class="feedback">
+          <i class="fa-regular fa-comment"></i>Send Feedback
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

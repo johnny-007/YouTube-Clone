@@ -1,0 +1,10 @@
+.main-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.thumbnail {
+    width: 320px;
+    height: 200px;
+}
