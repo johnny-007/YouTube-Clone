@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .left-header {
@@ -13,7 +15,7 @@
     color: white;
     font-size: 22px;
     margin-top: 28px;
-    margin-left: 30px;
+    margin-left: 25px;
     cursor: pointer;
 }
 /* .fa-bars:hover {
