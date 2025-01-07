@@ -1,0 +1,77 @@
+.sidebar {
+    color: white;
+    width: 150px;
+    margin: 90px 0 0 25px;
+    font-size: 15px;   
+   
+}
+
+.home-block,
+.personal-block,
+.subscriptions-block,
+.settings-block {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.home,
+.shorts,
+.you,
+.channel,
+.playlists,
+.history,
+.videos,
+.courses,
+.watch-later,
+.liked-videos,
+.aryNews,
+.aryDigital,
+.apnaCollege,
+.round2Hell,
+.careerFoundry,
+.freeCodeCamp,
+.bbkiVines,
+.settings,
+.report,
+.help,
+.feedback {
+    display: flex;
+    gap: 15px;
+    /* Common gap for all elements */
+    margin-bottom: 12px;
+    /* Common bottom margin */
+}
+
+.settings {
+    margin: 15px 0;
+    /* Combines margin-top and margin-bottom */
+}
+
+.you,
+.subscriptions {
+    margin: 15px 0;
+    font-size: 19px;
+}
+
+.subscription {
+    display: flex;
+    gap: 12px;
+    /* Specific gap for subscription items */
+    margin-bottom: 20px;
+    /* Specific bottom margin */
+}
+
+.fa-folder-open {
+    margin-top: 1px;
+}
+
+hr {
+    width: 150px;
+    color: hsla(0, 0%, 100%, 0.08);
+}
+
+img {
+    width: 25px;
+    border-radius: 13px;
+    cursor: pointer;
+}
